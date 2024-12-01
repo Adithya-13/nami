@@ -127,7 +127,7 @@ export default function MergedSections() {
   }
 
   if (page === 3) {
-    return <ProofConceptComponent />;
+    return <ProofConceptComponent onBack={() => setPage(1)} />;
   }
 
   return (

@@ -1,6 +1,10 @@
 import React from 'react';
 
-const ProofConceptComponent = () => {
+const ProofConceptComponent = ({
+  onBack,
+}: {
+  onBack: () => void;
+}) => {
   return (
     <div className="mx-auto px-4 py-8 bg-black text-white ">
       <div className="w-1/2 m-auto">
@@ -91,7 +95,9 @@ const ProofConceptComponent = () => {
         <section className="mb-12">
           <h3 className="text-2xl font-semibold mb-4">Call to Action</h3>
           <div className="text-center">
-            <button className="bg-blue-600 text-white px-8 py-3 rounded-full hover:bg-blue-700 transition-colors">
+            <button
+            onClick={onBack}
+             className="bg-blue-600 text-white px-8 py-3 rounded-full hover:bg-blue-700 transition-colors">
               Start interacting with NAMI
             </button>
           </div>

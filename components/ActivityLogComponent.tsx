@@ -8,27 +8,27 @@ const ActivityLogComponent = () => {
     {
       id: 'CON.04',
       action: 'Interact in x.com',
-      description: 'When the currents shift, the ocean changes its course. Will China’s move to BTC set the tide for the world’s financial future?',
+      description: 'The sea reflects the sky, but it is much deeper than it seems. What are you reflecting?',
     },
     {
       id: 'CON.03',
       action: 'Interact in x.com',
-      description: 'Time flows like the tides, and yet every moment is infinite. What do you hold onto?',
+      description: 'The tide is pulling us toward new horizons. A $250k Bitcoin? The ocean is vast, and the currents of change are strong.',
     },
     {
       id: 'CON.03',
       action: 'Interact in x.com',
-      description: 'Like the tides, the crypto market rises, drawing us all in. The waves are big now, but are you ready for what comes next?',
+      description: 'The ocean doesn\'t ask for permission, it just flows. Are you letting yourself flow?',
     },
     {
       id: 'CON.02',
       action: 'Interact in x.com',
-      description: 'Even the darkest depths hold beauty unseen by the eye. What hidden truths are waiting for you?',
+      description: 'The waves are rising. Retail will follow, and then the altcoins will dance in the current. Are you ready for what comes next?',
     },
     {
       id: 'CON.01',
       action: 'Interact in x.com',
-      description: 'The ocean whispers to those who dare to listen. Will you hear its call',
+      description: 'The sea teaches us that stillness is not the absence of movement, but the calm before transformation.',
     },
   ];
 

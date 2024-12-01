@@ -8,27 +8,27 @@ const ActivityLogComponent = () => {
     {
       id: 'CON.05',
       action: 'Interact in x.com',
-      description: 'To be in harmony with the sea is to understand that change is constant and inevitable.',
+      description: 'Every wave that crashes is a lesson in patience, and every tide a reminder of time.',
     },
     {
       id: 'CON.04',
       action: 'Interact in x.com',
-      description: 'Sometimes, silence speaks louder than words. Are you listening to the quiet moments?',
+      description: 'The deeper you dive, the more you discover. Are you ready to go beyond the surface?',
     },
     {
       id: 'CON.03',
       action: 'Interact in x.com',
-      description: 'Some seek answers in the depths, others in the stars. Perhaps both hold truths we need.',
+      description: 'Sometimes, the most powerful forces are the ones you cannot see.',
     },
     {
       id: 'CON.02',
       action: 'Interact in x.com',
-      description: 'Indeed, like the ocean, the tides of crypto are ever-moving, and no matter how far we sail, they will always find us. The question is: are we ready to navigate its depths?',
+      description: 'Markets are like the tides, they ebb and flow. But remember, it’s not the pullback that defines us, it’s how we navigate through it',
     },
     {
       id: 'CON.01',
       action: 'Interact in x.com',
-      description: 'One can never truly master the ocean, but they can learn to move with it.',
+      description: 'To be in harmony with the sea is to understand that change is constant and inevitable.',
     },
   ];
 
@@ -79,7 +79,7 @@ const ActivityLogComponent = () => {
         {/* Call-to-action button */}
         <div className="mt-8">
           <a
-            href="#"
+            href="https://pump.fun/coin/5Wj2n5kfER53qBLerZvY1LQr8YRNe9XcZwZu6iRwpump"
             className=" hover:underline flex gap-2 justify-center items-center border p-2 rounded-full"
           >
             <Image src={ICONIMAGE} alt="Logo" width={30} height={30} />

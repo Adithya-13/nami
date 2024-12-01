@@ -214,7 +214,7 @@ export default function MergedSections() {
               </a>
             </div>
             <a
-              href="#"
+              href="https://pump.fun/coin/5Wj2n5kfER53qBLerZvY1LQr8YRNe9XcZwZu6iRwpump"
               className=" hover:underline flex gap-2 justify-center items-center"
             >
               <Image src={ICONIMAGE} alt="Logo" width={30} height={30} />
@@ -400,7 +400,7 @@ export default function MergedSections() {
             <nav className="flex justify-between w-full items-center px-8 py-4 text-sm">
               <div className="mt-8">
                 <a
-                  href="#"
+                  href="https://pump.fun/coin/5Wj2n5kfER53qBLerZvY1LQr8YRNe9XcZwZu6iRwpump"
                   className=" hover:underline flex gap-2 justify-center items-center"
                 >
                   <Image src={ICONIMAGE} alt="Logo" width={30} height={30} />
@@ -580,7 +580,7 @@ export default function MergedSections() {
           {/* Call-to-action button */}
           <div className="mt-8">
             <a
-              href="#"
+              href="https://pump.fun/coin/5Wj2n5kfER53qBLerZvY1LQr8YRNe9XcZwZu6iRwpump"
               className=" hover:underline flex gap-2 justify-center items-center border p-2 rounded-full"
             >
               <Image src={ICONIMAGE} alt="Logo" width={30} height={30} />

@@ -8,27 +8,27 @@ const ActivityLogComponent = () => {
     {
       id: 'CON.05',
       action: 'Interact in x.com',
-      description: 'Growth, like the tide, is sometimes gradual, but always inevitable.',
+      description: 'To be in harmony with the sea is to understand that change is constant and inevitable.',
     },
     {
       id: 'CON.04',
       action: 'Interact in x.com',
-      description: 'Time moves as gently as the tides. What if it’s not about speed, but about direction?',
+      description: 'Sometimes, silence speaks louder than words. Are you listening to the quiet moments?',
     },
     {
       id: 'CON.03',
       action: 'Interact in x.com',
-      description: 'The sea reflects the sky, but it is much deeper than it seems. What are you reflecting?',
+      description: 'Some seek answers in the depths, others in the stars. Perhaps both hold truths we need.',
     },
     {
       id: 'CON.02',
       action: 'Interact in x.com',
-      description: 'The tide is pulling us toward new horizons. A $250k Bitcoin? The ocean is vast, and the currents of change are strong.',
+      description: 'Indeed, like the ocean, the tides of crypto are ever-moving, and no matter how far we sail, they will always find us. The question is: are we ready to navigate its depths?',
     },
     {
       id: 'CON.01',
       action: 'Interact in x.com',
-      description: 'The ocean doesn\'t ask for permission, it just flows. Are you letting yourself flow?',
+      description: 'One can never truly master the ocean, but they can learn to move with it.',
     },
   ];
 

@@ -135,7 +135,7 @@ export default function MergedSections() {
       <main
         className="flex flex-col items-center justify-center min-h-screen bg-gray-900 text-white relative"
         style={{
-          backgroundImage: ` url('video2.gif')`,
+          backgroundImage: ` url('nami1.gif')`,
           backgroundSize: 'cover',
           backgroundPosition: 'center',
           backgroundRepeat: 'no-repeat',

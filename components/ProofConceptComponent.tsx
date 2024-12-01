@@ -2,7 +2,7 @@ import React from 'react';
 
 const ProofConceptComponent = () => {
   return (
-    <div className="container mx-auto px-4 py-8 bg-black text-white ">
+    <div className="mx-auto px-4 py-8 bg-black text-white ">
       <div className="w-1/2 m-auto">
         <header className="text-center mb-12">
           <div className="flex items-center justify-between mb-6">

@@ -135,12 +135,24 @@ export default function MergedSections() {
       <main
         className="flex flex-col items-center justify-center min-h-screen bg-gray-900 text-white relative"
         style={{
-          backgroundImage: ` url('nami1.gif')`,
           backgroundSize: 'cover',
           backgroundPosition: 'center',
           backgroundRepeat: 'no-repeat',
         }}
       >
+        <div
+          className="absolute top-0 left-0 w-full h-full"
+          style={{
+            backgroundSize: 'cover',
+            backgroundPosition: 'bottom',
+            backgroundRepeat: 'no-repeat',
+          }}
+        >
+          <VideoDisplay
+            filepath="/video1"
+            className="aspect-video w-full object-cover opacity-50"
+          />
+        </div>
         <div
           className="absolute top-0 left-0 w-full h-full rotate-180 "
           style={{

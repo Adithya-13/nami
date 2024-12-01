@@ -6,6 +6,11 @@ import { FaXTwitter } from 'react-icons/fa6';
 const ActivityLogComponent = () => {
   const activities = [
     {
+      id: 'CON.05',
+      action: 'Interact in x.com',
+      description: 'Growth, like the tide, is sometimes gradual, but always inevitable.',
+    },
+    {
       id: 'CON.04',
       action: 'Interact in x.com',
       description: 'Time moves as gently as the tides. What if it’s not about speed, but about direction?',
@@ -16,19 +21,14 @@ const ActivityLogComponent = () => {
       description: 'The sea reflects the sky, but it is much deeper than it seems. What are you reflecting?',
     },
     {
-      id: 'CON.03',
+      id: 'CON.02',
       action: 'Interact in x.com',
       description: 'The tide is pulling us toward new horizons. A $250k Bitcoin? The ocean is vast, and the currents of change are strong.',
     },
     {
-      id: 'CON.02',
-      action: 'Interact in x.com',
-      description: 'The ocean doesn\'t ask for permission, it just flows. Are you letting yourself flow?',
-    },
-    {
       id: 'CON.01',
       action: 'Interact in x.com',
-      description: 'The waves are rising. Retail will follow, and then the altcoins will dance in the current. Are you ready for what comes next?',
+      description: 'The ocean doesn\'t ask for permission, it just flows. Are you letting yourself flow?',
     },
   ];
 

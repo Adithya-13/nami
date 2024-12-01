@@ -6,7 +6,7 @@ const ProofConceptComponent = () => {
       <div className="w-1/2 m-auto">
         <header className="text-center mb-12">
           <div className="flex items-center justify-between mb-6">
-            <h1 className="text-4xl font-bold mb-4">Poof of concept</h1>
+            <h1 className="text-4xl font-bold mb-4">Proof of concept</h1>
             <button
               className="px-6 py-3 bg-transparent text-white rounded-3xl   shadow-sm shadow-white transition"
               onClick={() => window.location.reload()}

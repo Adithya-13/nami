@@ -149,7 +149,7 @@ export default function MergedSections() {
           }}
         >
           <VideoDisplay
-            filepath="/video1"
+            filepath="/nami1"
             className="aspect-video w-full object-cover opacity-50"
           />
         </div>
@@ -300,6 +300,19 @@ export default function MergedSections() {
         }}
       >
         <div
+          className="absolute top-0 left-0 w-full h-full"
+          style={{
+            backgroundSize: 'cover',
+            backgroundPosition: 'bottom',
+            backgroundRepeat: 'no-repeat',
+          }}
+        >
+          <VideoDisplay
+            filepath="/nami6"
+            className="aspect-video w-full object-cover opacity-50"
+          />
+        </div>
+        <div
           className="absolute bottom-0 left-0 w-full h-[400px]"
           style={{
             backgroundImage: `url(${GRADIENT2})`,
@@ -337,12 +350,25 @@ export default function MergedSections() {
         <div
           className="flex flex-col items-start px-28 justify-between min-h-[800px] text-white relative"
           style={{
-            backgroundImage: `url('video3.gif')`,
+
             backgroundSize: 'cover',
             backgroundPosition: 'center',
             backgroundRepeat: 'no-repeat',
           }}
         >
+          <div
+            className="absolute top-0 left-0 w-full h-full"
+            style={{
+              backgroundSize: 'cover',
+              backgroundPosition: 'bottom',
+              backgroundRepeat: 'no-repeat',
+            }}
+          >
+            <VideoDisplay
+              filepath="/nami2"
+              className="aspect-video w-full object-cover opacity-50"
+            />
+          </div>
           <div
             className="absolute top-0 left-0 w-full h-full rotate-180 "
             style={{
@@ -535,6 +561,20 @@ export default function MergedSections() {
             backgroundRepeat: 'no-repeat',
           }}
         >
+          <div
+            className="absolute top-0 left-0 w-full h-full"
+            style={{
+              backgroundSize: 'cover',
+              backgroundPosition: 'bottom',
+              backgroundRepeat: 'no-repeat',
+            }}
+          >
+            <VideoDisplay
+              filepath="/nami4"
+              className="aspect-video w-full object-cover opacity-50"
+            />
+          </div>
+
           <h1 className="text-3xl md:text-5xl font-semibold leading-snug text-center">
             NAMI AS THE EMBODIMENT OF <br />
             OCEANIC WISDOM AND HUMAN CURIOSITY.

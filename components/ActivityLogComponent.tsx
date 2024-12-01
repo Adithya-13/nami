@@ -8,27 +8,27 @@ const ActivityLogComponent = () => {
     {
       id: 'CON.04',
       action: 'Interact in x.com',
-      description: 'mom took my crypto-OF, someone stop her',
+      description: 'When the currents shift, the ocean changes its course. Will China’s move to BTC set the tide for the world’s financial future?',
     },
     {
       id: 'CON.03',
       action: 'Interact in x.com',
-      description: 'mom took my crypto-OF, someone stop her',
+      description: 'Time flows like the tides, and yet every moment is infinite. What do you hold onto?',
     },
     {
       id: 'CON.03',
       action: 'Interact in x.com',
-      description: 'mom took my crypto-OF, someone stop her',
+      description: 'Like the tides, the crypto market rises, drawing us all in. The waves are big now, but are you ready for what comes next?',
     },
     {
       id: 'CON.02',
       action: 'Interact in x.com',
-      description: 'mom took my crypto-OF, someone stop her',
+      description: 'Even the darkest depths hold beauty unseen by the eye. What hidden truths are waiting for you?',
     },
     {
       id: 'CON.01',
       action: 'Interact in x.com',
-      description: 'mom took my crypto-OF, someone stop her',
+      description: 'The ocean whispers to those who dare to listen. Will you hear its call',
     },
   ];
 

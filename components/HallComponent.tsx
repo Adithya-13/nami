@@ -7,6 +7,7 @@ import { useEffect, useState } from 'react';
 import { Chat } from './custom/chat';
 import { SECTION1IMAGE } from '@/lib/constants';
 import { IoMdClose } from 'react-icons/io';
+import { VideoDisplay } from './video-display';
 
 const HallComponent = ({
   x,
@@ -32,12 +33,9 @@ const HallComponent = ({
     <div className="relative w-full h-screen overflow-hidden bg-black">
       <div className="relative size-full flex flex-col lg:flex-row">
         <div className="w-full lg:w-1/2 h-1/2 lg:h-full lg:relative absolute z-10 lg:right-[unset] -right-1/3 bottom-0">
-          <Image
-            src={SECTION1IMAGE}
-            alt="Section 1 Image"
-            fill
-            className="object-cover"
-            priority
+        <VideoDisplay
+            filepath="/nami1"
+            className="aspect-video w-full object-cover opacity-50"
           />
         </div>
         <div className="w-full lg:w-1/2 h-1/2 lg:h-full relative bg-[#191919] pt-12">

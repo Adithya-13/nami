@@ -8,6 +8,11 @@ const ActivityLogComponent = () => {
     {
       id: 'CON.04',
       action: 'Interact in x.com',
+      description: 'Time moves as gently as the tides. What if it’s not about speed, but about direction?',
+    },
+    {
+      id: 'CON.03',
+      action: 'Interact in x.com',
       description: 'The sea reflects the sky, but it is much deeper than it seems. What are you reflecting?',
     },
     {
@@ -16,19 +21,14 @@ const ActivityLogComponent = () => {
       description: 'The tide is pulling us toward new horizons. A $250k Bitcoin? The ocean is vast, and the currents of change are strong.',
     },
     {
-      id: 'CON.03',
+      id: 'CON.02',
       action: 'Interact in x.com',
       description: 'The ocean doesn\'t ask for permission, it just flows. Are you letting yourself flow?',
     },
     {
-      id: 'CON.02',
-      action: 'Interact in x.com',
-      description: 'The waves are rising. Retail will follow, and then the altcoins will dance in the current. Are you ready for what comes next?',
-    },
-    {
       id: 'CON.01',
       action: 'Interact in x.com',
-      description: 'The sea teaches us that stillness is not the absence of movement, but the calm before transformation.',
+      description: 'The waves are rising. Retail will follow, and then the altcoins will dance in the current. Are you ready for what comes next?',
     },
   ];
 

@@ -180,63 +180,65 @@ export default function MergedSections() {
             backgroundRepeat: 'no-repeat',
           }}
         ></div>
-        {/* Navigation nlbasl*/}
-        <nav className="absolute top-0 left-0 w-full flex justify-between px-8 py-4 text-sm">
-          <div className="flex space-x-8">
-            <div
-              onClick={() => setPage(3)}
-              className="hover:underline"
-              style={{ letterSpacing: '1px' }}
-            >
-              Proof of Concept
-            </div>
-            <div
-              onClick={() => setPage(2)}
-              className="hover:underline"
-              style={{ letterSpacing: '1px' }}
-            >
-              Activity Log
+        <div className=" z-10 w-full h-full">
+          {/* Navigation nlbasl*/}
+          <nav className="absolute top-0 left-0 w-full flex justify-between px-8 py-4 text-sm">
+            <div className="flex space-x-8">
+              <div
+                onClick={() => setPage(3)}
+                className="hover:underline"
+                style={{ letterSpacing: '1px' }}
+              >
+                Proof of Concept
+              </div>
+              <div
+                onClick={() => setPage(2)}
+                className="hover:underline"
+                style={{ letterSpacing: '1px' }}
+              >
+                Activity Log
+              </div>
+              <a
+                href="https://x.com/namisim_?s=21&t=qCtUw31_HDe6N1JCXqxpnA"
+                className="hover:underline"
+                style={{ letterSpacing: '1px' }}
+              >
+                Nami on X
+              </a>
+              <a
+                href="https://x.com/zenithorion?s=21&t=qCtUw31_HDe6N1JCXqxpnA"
+                className="hover:underline"
+                style={{ letterSpacing: '1px' }}
+              >
+                Architect on X
+              </a>
             </div>
             <a
-              href="https://x.com/namisim_?s=21&t=qCtUw31_HDe6N1JCXqxpnA"
-              className="hover:underline"
-              style={{ letterSpacing: '1px' }}
+              href="#"
+              className=" hover:underline flex gap-2 justify-center items-center"
             >
-              Nami on X
+              <Image src={ICONIMAGE} alt="Logo" width={30} height={30} />
+              <span>Buy $NAMI ↗</span>
             </a>
-            <a
-              href="https://x.com/zenithorion?s=21&t=qCtUw31_HDe6N1JCXqxpnA"
-              className="hover:underline"
-              style={{ letterSpacing: '1px' }}
-            >
-              Architect on X
-            </a>
-          </div>
-          <a
-            href="#"
-            className=" hover:underline flex gap-2 justify-center items-center"
-          >
-            <Image src={ICONIMAGE} alt="Logo" width={30} height={30} />
-            <span>Buy $NAMI ↗</span>
-          </a>
-        </nav>
+          </nav>
 
-        {/* Main Content */}
-        <section className="text-center px-8 absolute bottom-16">
-          <h1 className="text-5xl font-bold mb-4">NAMI</h1>
-          <p className="text-lg max-w-2xl mx-auto">
-            An AI shaped by mythology, powered by blockchain, and guided by the
-            tides of your curiosity.
-          </p>
-          <div className="mt-6">
-            <button
-              onClick={() => setPage(1)}
-              className="px-6 py-3 bg-transparent text-white rounded-3xl   shadow-sm shadow-white transition"
-            >
-              Interact Now ↗
-            </button>
-          </div>
-        </section>
+          {/* Main Content */}
+          <section className="text-center px-8 absolute w-full   bottom-16">
+            <h1 className="text-5xl font-bold mb-4">NAMI</h1>
+            <p className="text-lg max-w-2xl mx-auto">
+              An AI shaped by mythology, powered by blockchain, and guided by
+              the tides of your curiosity.
+            </p>
+            <div className="mt-6">
+              <button
+                onClick={() => setPage(1)}
+                className="px-6 py-3 bg-transparent text-white rounded-3xl   shadow-sm shadow-white transition"
+              >
+                Interact Now ↗
+              </button>
+            </div>
+          </section>
+        </div>
       </main>
 
       <main

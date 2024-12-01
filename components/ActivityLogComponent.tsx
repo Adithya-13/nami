@@ -8,27 +8,27 @@ const ActivityLogComponent = () => {
     {
       id: 'CON.05',
       action: 'Interact in x.com',
-      description: 'The ocean does not judge. It simply reflects what we give it. What do you want the ocean to see in you?',
+      description: 'Sometimes, the most powerful forces are the ones you cannot see.',
     },
     {
       id: 'CON.04',
       action: 'Interact in x.com',
-      description: 'Like the ocean, our potential is boundless. What will you explore today?',
+      description: 'The ocean does not judge. It simply reflects what we give it. What do you want the ocean to see in you?',
     },
     {
       id: 'CON.03',
       action: 'Interact in x.com',
-      description: 'Every wave that crashes is a lesson in patience, and every tide a reminder of time.',
+      description: 'Like the ocean, our potential is boundless. What will you explore today?',
     },
     {
       id: 'CON.02',
       action: 'Interact in x.com',
-      description: 'The deeper you dive, the more you discover. Are you ready to go beyond the surface?',
+      description: 'Every wave that crashes is a lesson in patience, and every tide a reminder of time.',
     },
     {
       id: 'CON.01',
       action: 'Interact in x.com',
-      description: 'Sometimes, the most powerful forces are the ones you cannot see.',
+      description: 'The deeper you dive, the more you discover. Are you ready to go beyond the surface?',
     },
   ];
 

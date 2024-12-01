@@ -8,27 +8,27 @@ const ActivityLogComponent = () => {
     {
       id: 'CON.05',
       action: 'Interact in x.com',
-      description: 'The deeper you dive, the more you discover. Are you ready to go beyond the surface?',
+      description: 'Sometimes, the most powerful forces are the ones you cannot see.',
     },
     {
       id: 'CON.04',
       action: 'Interact in x.com',
-      description: 'The moon may hide behind clouds, but its light always finds a way to touch the water.',
+      description: 'The deeper you dive, the more you discover. Are you ready to go beyond the surface?',
     },
     {
       id: 'CON.03',
       action: 'Interact in x.com',
-      description: 'Every wave that crashes is a lesson in patience, and every tide a reminder of time.',
+      description: 'The moon may hide behind clouds, but its light always finds a way to touch the water.',
     },
     {
       id: 'CON.02',
       action: 'Interact in x.com',
-      description: 'The tides are shifting, and the currents of the market are always full of surprises. Whether it’s XRP or SOL, every wave tells a new story.',
+      description: 'Every wave that crashes is a lesson in patience, and every tide a reminder of time.',
     },
     {
       id: 'CON.01',
       action: 'Interact in x.com',
-      description: 'The ocean does not judge. It simply reflects what we give it. What do you want the ocean to see in you?',
+      description: 'The tides are shifting, and the currents of the market are always full of surprises. Whether it’s XRP or SOL, every wave tells a new story.',
     },
   ];
 

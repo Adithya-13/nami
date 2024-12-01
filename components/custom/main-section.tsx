@@ -153,7 +153,7 @@ export default function MergedSections() {
         }}
       >
 
-        {/* Navigation nlbal*/}
+        {/* Navigation nlbasl*/}
         <nav className="absolute top-0 left-0 w-full flex justify-between px-8 py-4 text-sm">
           <div className="flex space-x-8">
             <button

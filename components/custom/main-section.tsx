@@ -29,7 +29,6 @@ const GoblinPage = dynamic(() => import('@/app/(chat)/goblin-chat/page'), {
   ssr: false,
 });
 
-
 export default function MergedSections() {
   const [currentPage, setCurrentPage] = useState<'main' | 'comics' | 'goblin'>(
     'main'
@@ -51,15 +50,6 @@ export default function MergedSections() {
     return () => {
       mediaQuery.removeEventListener('change', handleMediaQueryChange);
     };
-  }, []);
-
-  useEffect(() => {
-    if (audioRef.current) {
-      audioRef.current.volume = 0.5;
-      audioRef.current
-        .play()
-        .catch((error) => console.log('Audio autoplay failed:', error));
-    }
   }, []);
 
   const toggleAudio = () => {
@@ -140,38 +130,61 @@ export default function MergedSections() {
     return <ProofConceptComponent />;
   }
 
-
   return (
     <>
       <main
         className="flex flex-col items-center justify-center min-h-screen bg-gray-900 text-white relative"
         style={{
-          backgroundImage: `url(${GRADIENT})`,
+          backgroundImage: ` url('video2.gif')`,
           backgroundSize: 'cover',
           backgroundPosition: 'center',
           backgroundRepeat: 'no-repeat',
         }}
       >
-
+        <div
+          className="absolute top-0 left-0 w-full h-full rotate-180 "
+          style={{
+            backgroundImage: `url(${GRADIENT2})`,
+            backgroundSize: 'cover',
+            backgroundPosition: 'bottom',
+            backgroundRepeat: 'no-repeat',
+          }}
+        ></div>
+        <div
+          className="absolute top-0 left-0 w-full h-[400px] rotate-180 "
+          style={{
+            backgroundImage: `url(${GRADIENT2})`,
+            backgroundSize: 'cover',
+            backgroundPosition: 'bottom',
+            backgroundRepeat: 'no-repeat',
+          }}
+        ></div>
+        <div
+          className="absolute bottom-0 left-0 w-full h-[400px]"
+          style={{
+            backgroundImage: `url(${GRADIENT2})`,
+            backgroundSize: 'cover',
+            backgroundPosition: 'bottom',
+            backgroundRepeat: 'no-repeat',
+          }}
+        ></div>
         {/* Navigation nlbasl*/}
         <nav className="absolute top-0 left-0 w-full flex justify-between px-8 py-4 text-sm">
           <div className="flex space-x-8">
-            <button
+            <div
               onClick={() => setPage(3)}
               className="hover:underline"
               style={{ letterSpacing: '1px' }}
             >
               Proof of Concept
-            </button>
-            <button
-              onClick={() =>
-                setPage(2)
-              }
+            </div>
+            <div
+              onClick={() => setPage(2)}
               className="hover:underline"
-              style={{ letterSpacing: '1px' }
-              }>
+              style={{ letterSpacing: '1px' }}
+            >
               Activity Log
-            </button>
+            </div>
             <a
               href="https://x.com/namisim_?s=21&t=qCtUw31_HDe6N1JCXqxpnA"
               className="hover:underline"
@@ -310,12 +323,21 @@ export default function MergedSections() {
         <div
           className="flex flex-col items-start px-28 justify-between min-h-[800px] text-white relative"
           style={{
-            backgroundImage: `url(${GRADIENT1}), url(${SECTIONIMAGE})`,
+            backgroundImage: `url('video3.gif')`,
             backgroundSize: 'cover',
             backgroundPosition: 'center',
             backgroundRepeat: 'no-repeat',
           }}
         >
+          <div
+            className="absolute top-0 left-0 w-full h-full rotate-180 "
+            style={{
+              backgroundImage: `url(${GRADIENT2})`,
+              backgroundSize: 'cover',
+              backgroundPosition: 'bottom',
+              backgroundRepeat: 'no-repeat',
+            }}
+          ></div>
           <div
             className="absolute top-0 left-0 w-full h-[400px] rotate-180 "
             style={{
@@ -350,18 +372,30 @@ export default function MergedSections() {
               </div>
               <div className="flex items-center space-x-4">
                 <span>We`re on ↗</span>
-                <a
-                  href="https://x.com/namisim_?s=21&t=qCtUw31_HDe6N1JCXqxpnA"
-                >
-                  <button className="rounded-full border border-gray-400 p-2 ">
+                <a href="https://x.com/namisim_?s=21&t=qCtUw31_HDe6N1JCXqxpnA">
+                  <button className="rounded-full border border-gray-400 p-2 relative">
                     <FaXTwitter />
+                    <div className="absolute -bottom-2 -right-2 w-4 h-4 bg-white rounded-full flex items-center justify-center">
+                      <Image
+                        src={ICONIMAGE}
+                        alt="Mini Logo"
+                        width={12}
+                        height={12}
+                      />
+                    </div>
                   </button>
                 </a>
-                <a
-                  href="https://x.com/zenithorion?s=21&t=qCtUw31_HDe6N1JCXqxpnA"
-                >
-                  <button className="rounded-full border border-gray-400 p-2 ">
+                <a href="https://x.com/zenithorion?s=21&t=qCtUw31_HDe6N1JCXqxpnA">
+                  <button className="rounded-full border border-gray-400 p-2 relative">
                     <FaXTwitter />
+                    <div className="absolute -bottom-2 -right-2 w-4 h-4 bg-white rounded-full flex items-center justify-center">
+                      <Image
+                        src={'/image2.png'}
+                        alt="Mini Logo"
+                        width={12}
+                        height={12}
+                      />
+                    </div>
                   </button>
                 </a>
               </div>
@@ -372,26 +406,27 @@ export default function MergedSections() {
               <h1 className="text-4xl font-bold mb-8">WHAT CAN NAMI DO?</h1>
               <div className="p-6 rounded-lg absolute left-0">
                 <h3 className="text-xl font-semibold mb-4">
-                  Dynamic Sentient Interaction
+                  Dynamic Sentient <br /> Interaction
                 </h3>
                 <p className="text-sm mb-4">
-                  Description of personalized and empathetic engagement.
+                  Description of personalized <br /> and empathetic engagement.
                 </p>
               </div>
               <div className="p-6 rounded-lg absolute right-0">
                 <h3 className="text-xl font-semibold mb-4">
-                  Blockchain Integration
+                  Fluid Narrative <br /> Generation
                 </h3>
                 <p className="text-sm mb-4">
-                  Exploration of secure, decentralized evolution.
+                  Collaborative <br /> storytelling and roleplay.
                 </p>
               </div>
               <div className="p-6 rounded-lg absolute  left-[40%]  top-[24rem]">
                 <h3 className="text-xl font-semibold mb-4">
-                  Fluid Narrative Generation
+                  Blockchain Integration
                 </h3>
                 <p className="text-sm mb-4">
-                  Collaborative storytelling and roleplay.
+                  Exploration of secure,
+                  <br /> decentralized evolution.
                 </p>
               </div>
               <div className="absolute -bottom-[400%] left-0 w-full h-[400px]">
@@ -429,7 +464,12 @@ export default function MergedSections() {
                   Embark on a personalized journey with her.
                 </p>
               </div>
-              <button onClick={() => { setPage(1) }} className="text-white border p-2 hover:underline">
+              <button
+                onClick={() => {
+                  setPage(1);
+                }}
+                className="text-white border p-2 hover:underline"
+              >
                 Interact Now ↗
               </button>
             </div>
@@ -443,7 +483,12 @@ export default function MergedSections() {
                   Uncover the secrets of her groundbreaking technology.
                 </p>
               </div>
-              <button onClick={() => { setPage(3) }} className="text-white border p-2 hover:underline">
+              <button
+                onClick={() => {
+                  setPage(3);
+                }}
+                className="text-white border p-2 hover:underline"
+              >
                 See Now ↗
               </button>
             </div>
@@ -457,7 +502,10 @@ export default function MergedSections() {
                   Reach out on x.com become part of NAMI{"'"}s world.
                 </p>
               </div>
-              <a href="https://x.com/namisim_?s=21&t=qCtUw31_HDe6N1JCXqxpnA" className="text-white border p-2 hover:underline">
+              <a
+                href="https://x.com/namisim_?s=21&t=qCtUw31_HDe6N1JCXqxpnA"
+                className="text-white border p-2 hover:underline"
+              >
                 See on x.com ↗
               </a>
             </div>
@@ -467,7 +515,7 @@ export default function MergedSections() {
         <section
           className="flex flex-col items-center px-28 py-16 justify-between min-h-[600px] text-white relative"
           style={{
-            backgroundImage: `url(${GRADIENT1}), url(${BGFOOTER})`,
+            backgroundImage: `url(${GRADIENT1}), url('video4.gif')`,
             backgroundSize: 'cover',
             backgroundPosition: 'center',
             backgroundRepeat: 'no-repeat',
@@ -493,18 +541,30 @@ export default function MergedSections() {
           <div className="mt-12">
             <p className="text-sm mb-4 text-center">We`re on X</p>
             <div className="flex justify-center items-center space-x-4">
-              <a
-                href="https://x.com/namisim_?s=21&t=qCtUw31_HDe6N1JCXqxpnA"
-              >
-                <button className="rounded-full border border-gray-400 p-4 ">
+              <a href="https://x.com/namisim_?s=21&t=qCtUw31_HDe6N1JCXqxpnA">
+                <button className="rounded-full border border-gray-400 p-4 relative">
                   <FaXTwitter />
+                  <div className="absolute -bottom-2 -right-2 w-4 h-4 bg-white rounded-full flex items-center justify-center">
+                    <Image
+                      src={ICONIMAGE}
+                      alt="Mini Logo"
+                      width={12}
+                      height={12}
+                    />
+                  </div>
                 </button>
               </a>
-              <a
-                href="https://x.com/zenithorion?s=21&t=qCtUw31_HDe6N1JCXqxpnA"
-              >
-                <button className="rounded-full border border-gray-400 p-4 ">
+              <a href="https://x.com/zenithorion?s=21&t=qCtUw31_HDe6N1JCXqxpnA">
+                <button className="rounded-full border border-gray-400 p-4 relative">
                   <FaXTwitter />
+                  <div className="absolute -bottom-2 -right-2 w-4 h-4 bg-white rounded-full flex items-center justify-center">
+                    <Image
+                      src={'/image2.png'}
+                      alt="Mini Logo"
+                      width={12}
+                      height={12}
+                    />
+                  </div>
                 </button>
               </a>
             </div>

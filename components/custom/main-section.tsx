@@ -394,9 +394,6 @@ export default function MergedSections() {
               backgroundRepeat: 'no-repeat',
             }}
           ></div>
-          <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 ">
-            <Image src={LOGOIMAGE} alt="Background" width={300} height={300} />
-          </div>
           <div className="relative z-10 w-full">
             <nav className="flex justify-between w-full items-center px-8 py-4 text-sm">
               <div className="mt-8">
@@ -559,7 +556,7 @@ export default function MergedSections() {
             backgroundRepeat: 'no-repeat',
           }}
         >
-          <div
+          {/* <div
             className="absolute top-0 left-0 w-full h-full"
             style={{
               backgroundSize: 'cover',
@@ -571,7 +568,7 @@ export default function MergedSections() {
               filepath="/nami4"
               className="aspect-video w-full object-cover opacity-50"
             />
-          </div>
+          </div> */}
 
           <h1 className="text-3xl md:text-5xl font-semibold leading-snug text-center">
             NAMI AS THE EMBODIMENT OF <br />
